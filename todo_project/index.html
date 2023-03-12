@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Ruby's TO-DO List</title>
+</head>
+
+<body>
+
+    <nav class="navBar">
+        <h1>Ruby's TO-DO List</h1>
+        <a id="addNew">+</a>
+
+    </nav>
+
+    <section>
+        <div id="addNewPanel" class="panel show hidden">
+            <div class="panel-heading">
+                <h2>TO-DO Title</h2>
+                <a id="closing">X</a>
+            </div>
+            <textarea id="titleInput"></textarea>
+            <h2>TO-DO Content</h2>
+            <textarea id="contentInput">
+
+            </textarea>
+            <div class="panel-button">
+                <button class="save" id="saveButton">Save</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <h2 class="section-heading">New TO-DOs</h2>
+        <div id="currentTODO" class="todoPanel">
+
+            <!-- <div class="panel">
+                <div class="panel-heading">
+                    <h2>TO-DO Title</h2>
+                    <a class="delete">X</a>
+                </div>
+                <div class="panel-button">
+                    <button class="completed">Completed</button>
+                    <button class="edit">Edit</button>
+                </div>
+                <p>Date and Time</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ducimus iusto deleniti neque vero
+                    exercitationem quibusdam, voluptatem amet consequatur saepe minus sit recusandae hic perspiciatis
+                    quidem
+                    ut velit provident facere.
+                </p>
+            </div> -->
+
+        </div>
+
+    </section>
+
+    <section>
+        <h2 class="section-heading">Things Done.</h2>
+        <div id="completeTODO" class="todoPanel">
+
+            <!-- <div class="panel">
+                <div class="panel-heading">
+                    <h2>TO-DO Title</h2>
+                    <a class="delete">X</a>
+                </div>
+                <div class="panel-button">
+                    <button class="completed">Completed</button>
+                    <button class="undo">Undo</button>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ducimus iusto deleniti neque vero
+                    exercitationem quibusdam, voluptatem amet consequatur saepe minus sit recusandae hic perspiciatis
+                    quidem
+                    ut velit provident facere.
+                </p>
+            </div> -->
+
+        </div>
+
+    </section>
+
+    <footer>
+        <h3>Made by Ruby</h3>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

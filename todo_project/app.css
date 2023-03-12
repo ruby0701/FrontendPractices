@@ -1,0 +1,296 @@
+/*-------- Resets-----------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*----Reset Ends----*/
+
+/*----Main Page----*/
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.section-heading {
+    background-color: bisque;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 0.5rem;
+}
+
+/*----Panel----*/
+
+section {
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.panel {
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 10rem;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    border: 1px solid olivedrab;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+
+.todoPanel {
+    display: block;
+    flex-wrap: wrap;
+}
+
+.panel-heading {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.panel-button {
+    align-items: flex-end;
+    justify-content: right;
+    display: flex;
+}
+
+.section-heading {
+    border-bottom: 2px solid burlywood;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+button {
+    font-family: 'Roboto Slab', serif;
+    background-color: beige;
+    border: 1px solid lavender;
+    border-radius: 5px;
+    justify-content: right;
+    align-items: baseline;
+    transition: all 0.3s;
+}
+
+button:hover {
+    font-family: 'Roboto Slab', serif;
+    background-color: lavender;
+    border: 1px solid beige;
+    border-radius: 5px;
+    justify-content: right;
+    align-items: baseline;
+    cursor: pointer;
+}
+
+#closing:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+/*----addNew Panel----*/
+
+.addNewPanel {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    display: block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#titleInput {
+    font-family: 'Roboto Slab', serif;
+    width: 20rem;
+    height: 1rem;
+    display: inline;
+    resize: none;
+}
+
+#contentInput {
+    width: 20rem;
+    height: 6rem;
+    display: inline;
+    resize: none;
+}
+
+.addNewPanel .save {
+    align-items: baseline;
+    justify-content: right;
+}
+
+/*----Nav Bar----*/
+nav {
+    background-color: paleturquoise;
+    font-size: 48px;
+    height: 80px;
+}
+
+.navBar {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+#addNew {
+    font-size: 72px;
+    border: 0;
+    margin: 0;
+    padding: 0 1rem 0 0;
+    transition: all 0.25s;
+}
+
+#addNew:hover {
+    font-size: 74px;
+    border: 0;
+    margin: 0;
+    padding: 0 1rem 0 0;
+    cursor: pointer;
+}
+
+
+/*----Footer----*/
+footer {
+    background-color: paleturquoise;
+}

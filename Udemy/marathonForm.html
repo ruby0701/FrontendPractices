@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Register From</title>
+</head>
+
+<body>
+    <h1>Race Registeration!</h1>
+
+    <form action="https://google.com">
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" required>
+        <label for="lasttName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" required>
+
+        <p>
+            Select a Race:
+            <br>
+            <!--use value so that the data sent back has meaning-->
+            <input type="radio" name="raceType" value="funRun">
+            <label for="raceType">Fun Run 5k</label>
+            <br>
+            <input type="radio" name="raceType" value="half">
+            <label for="raceType">Half Marathon</label>
+            <br>
+            <input type="radio" name="raceType" value="full">
+            <label for="raceType">Full Marathon</label>
+        </p>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            <label for="password">Password</label>
+            <input type="password" name="password">
+            <br>
+            <label for="ageGroup">Select Age Group</label>
+            <select name="ageGroup">Select Age Group
+                <!--use meaningful words for value-->
+                <option value="kids">1-18</option>
+                <option value="youngAdults">18-30</option>
+                <option value="adults">30-50</option>
+                <option value="senior">50-99</option>
+            </select>
+            <br>
+            <button>Register!</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

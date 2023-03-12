@@ -1,0 +1,17 @@
+img {
+    width: 30%;
+    margin: 1.45%;
+    height: 25em;
+    object-fit: cover;
+}
+
+nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Sacramento', cursive;
+    border-bottom: 2px solid gray;
+    width: 30%;
+    margin-left: 1.45%;
+    padding: 1.5em 0 0;
+    font-size: 1rem;
+}
